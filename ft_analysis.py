@@ -47,4 +47,3 @@ def ft_analysis(x):
     print(nnn)
     # 9
     print(ft_len(x))
-

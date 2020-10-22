@@ -1,7 +1,11 @@
-from ft_len import ft_len
+def ft_len(st):
+    kol = 0
+    for i in st:
+        kol += 1
+    return kol
 
 
-def ft_find_second_char(char, x):
+def ft_find_second_char(chrr, x):
     s1 = ''
     s2 = ''
     for i in range(ft_len(x)):

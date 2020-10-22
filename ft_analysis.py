@@ -1,5 +1,15 @@
-from ft_len import ft_len
-from ft_reverse_str import ft_reverse_str
+def ft_reverse_str(x):
+    res = ''
+    for i in range(ft_len(x)):
+        res += x[(i + 1) * -1]
+    return res
+
+
+def ft_len(st):
+    kol = 0
+    for i in st:
+        kol += 1
+    return kol
 
 
 def ft_analysis(x):
@@ -37,3 +47,4 @@ def ft_analysis(x):
     print(nnn)
     # 9
     print(ft_len(x))
+

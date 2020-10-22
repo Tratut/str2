@@ -18,5 +18,4 @@ def ft_change_str(str1, str2, str3):
         str3 = first + str2 + sec
     return str3
 
-
 # print(ft_change_str("23", "asfdsfsgf", "1234"))
